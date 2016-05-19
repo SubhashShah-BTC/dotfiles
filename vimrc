@@ -71,12 +71,16 @@ map <C-s> :w<cr>
 imap <C-s> <Esc>:w<cr>
 map <C-q> :q<cr>
 map 0 ^
+imap jj <esc>
+map <Leader>d obinding.pry<esc>:w<cr>
 
 map <Leader>t :call RunCurrentSpecFile()<CR>
 map <Leader>s :call RunNearestSpec()<CR>
 map <Leader>l :call RunLastSpec()<CR>
 map <Leader>a :call RunAllSpecs()<CR>
 map <Leader>n :NERDTreeToggle<CR>
+map <Leader>ac :sp app/controllers/application_controller.rb<CR>
+map <Leader>bb :!bundle install<cr>
 
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
