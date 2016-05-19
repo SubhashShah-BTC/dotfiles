@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/subhash/projects/rails/hire-influence-background-jobs/app/workers'
+let g:netrw_dirhist_2='/home/subhash/.vim'
+let g:netrw_dirhist_3='/home/subhash/projects/rails/vertical-server/app/assets/javascripts/ckeditor'
+let g:netrw_dirhist_4='/home/subhash/.vim'
+let g:netrw_dirhist_5='/home/subhash/projects/rails/hire-influence/app/views/business_users'
